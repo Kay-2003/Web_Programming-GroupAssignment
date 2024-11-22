@@ -58,3 +58,6 @@ CSS - Stylesheets to style the login, registration, and cart pages.
 JavaScript - To add functionality such as login, registration, and cart management.
 localStorage - Used to store user information and cart data on the client side.
 Date - Used to generate unique invoice numbers and track registration dates.
+
+[Click here to visit the website](https://kay-2003.github.io/Web_Programming-GroupAssignment/)
+
