@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black; /* Adjust text color for contrast */
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for forms */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+    color: black; /* Adjust footer text color */
+}
+
+h1{
+    text-align: center;
+}
+
+footer h1 { 
+    font-size: 24px; 
+}
+
+.social-links { 
+    display: flex; 
+    justify-content: 
+    center;
+     margin: 10px 0; 
+    }
+
+.social-links a { 
+    margin: 0 10px;
+ }
+
+.social-links img {
+     width: 30px; 
+    }
+
+
+

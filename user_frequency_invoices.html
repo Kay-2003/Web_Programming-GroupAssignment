@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Frequency & Invoices</title>
+    <link rel="stylesheet" href="user_frequency_invoices.css">
+    <script src="user_frequency_invoices.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>KZD Hair Accessories</h1>
+        <nav>
+            <a href="product.html">Products</a>
+        </nav>
+    </header>
+    <main>
+        <section id="user-frequency">
+            <h2>User Frequency</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Gender</th>
+                        <th># of Users</th>
+                        <th>Age</th>
+                        <th># of Users</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Male</td>
+                        <td id="male-users">0</td>
+                        <td>18-25</td>
+                        <td id="age-18-25">0</td>
+                    </tr>
+                    <tr>
+                        <td>Female</td>
+                        <td id="female-users">0</td>
+                        <td>26-35</td>
+                        <td id="age-26-35">0</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>36-50</td>
+                        <td id="age-36-50">0</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>50+</td>
+                        <td id="age-50-plus">0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="invoices">
+            <h2>Invoices</h2>
+            <div class="search-bar">
+                <label for="trn-search">Search by TRN:</label>
+                <input type="text" id="trn-search" placeholder="Enter TRN">
+                <button id="search-button">Search</button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>TRN</th>
+                        <th>Invoice Number</th>
+                        <th>Customer Name</th>
+                        <th>Date</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="invoice-list">
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; KZD Hair Accessories</p>
+    </footer>
+</body>
+</html>

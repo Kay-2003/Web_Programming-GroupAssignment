@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: purple;
+    color: white;
+    padding: 10px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.cancel-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.cancel-button:hover {
+    background-color: darkred;
+}
+
+.checkout h2 {
+    color: purple;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.shipping-form {
+    margin-bottom: 20px;
+}
+
+.shipping-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.shipping-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.cart-summary table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.cart-summary th, .cart-summary td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.cart-summary tfoot td {
+    font-weight: bold;
+}
+
+.actions {
+    text-align: right;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: indigo;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}

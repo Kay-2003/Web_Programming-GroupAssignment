@@ -1,0 +1,129 @@
+body { 
+    background: linear-gradient(to bottom, pink, purple); 
+    font-family: Arial, 
+    sans-serif; 
+    color: #333; 
+    margin: 0; padding: 0;
+ }
+    
+header { 
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px; 
+    text-align: center; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+header nav ul 
+{ 
+    list-style-type: none; 
+    display: flex; 
+    gap: 20px; 
+} 
+
+
+header input { 
+    padding: 5px; 
+    border: 1px solid #ccc; 
+} 
+    
+.ads { 
+    background-color: #fff; 
+    padding: 10px;
+    text-align: center; 
+    margin: 10px auto; 
+    width: 100%;       
+    max-width: 1000px;   
+    height: 290px;      
+    overflow: hidden;  
+    box-sizing: border-box; 
+}
+
+.ads img {
+    width: 100%;        
+    height: 100%;       
+    object-fit: cover;  
+}
+
+
+.products { text-align: 
+    center; padding: 20px; 
+} 
+
+.product-grid { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; } 
+
+.product {
+     background-color: white;
+    border: 1px solid #ccc; 
+    padding: 15px; 
+    border-radius: 10px; 
+} 
+
+footer { 
+    background-color: rgba(255, 255, 255, 0.9); 
+    text-align: center; padding: 20px;
+ } 
+    
+footer nav ul { 
+    list-style-type: none; 
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+} 
+
+footer p { 
+    margin: 10px 0; 
+}
+
+.product img {
+    width: 150px;  
+    height: 150px; 
+    object-fit: cover; 
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px; 
+    justify-content: center; 
+}
+
+.product {
+    text-align: center; 
+    max-width: 200px; 
+}
+
+button { 
+    padding: 10px 15px; 
+    background-color: purple;
+    color: white;
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px;
+} 
+   
+button:hover { 
+    background-color: indigo; 
+}
+
+#checkout-btn {
+    float: right; 
+    background-color: #ff4081;
+    color: white; 
+    font-size: 16px; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+ 
+ h1{
+    text-align: center;
+    padding: 20px;
+ }

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product.css">
+    <script src="product.js" defer></script>
+    <title>Product Page</title>
+</head>
+<body> 
+<header> 
+    <h1>DNG Hair Accessories</h1> 
+    <nav> 
+        <ul> 
+            <li><a href="all.html">All</a></li> 
+            <li><a href="bonnets.html">Bonnets</a></li> 
+            <li><a href="scrunchie.html">Scrunchies</a></li>
+            <li><a href="clips and bows.html">Clip &  Bow</a></li> 
+            <li><a href="beads.html">Beads</a></li> 
+            <li><a href="shoppingcart.html">Shopping Cart</a></li> 
+        </ul> 
+        
+        <input type="text" id="search-input" name="search" placeholder="Search...">
+    </nav> 
+</header> 
+        
+
+<main>
+    <section class="ads">
+        <img src="Gray Minimalist New Collection Banner (1).png" alt="Ad Banner">
+    </section>
+
+    <h1>Welcome to DNG Hair Accessories !!! Hope you find your perfect hair accessories fit your dream look</h1>
+    <section class="products"> 
+        <h2>Products</h2> 
+        <div class="product-grid"> 
+            <div class="product" data-name="3 Assorted Scrunchie" data-price="15"> 
+                <img src="silk scrunchie.jpg" alt="Scrunchie">
+                <h3>3 Assorted Scrunchie</h3> 
+                <p>$15</p> 
+                <button class="add-to-cart-btn">Add to cart</button>
+            </div>
+            <div class="product" data-name="Bonnet" data-price="25"> 
+                <img src="silk bonnet.jpg" alt="Bonnet">
+                <h3>Bonnet</h3> 
+                <p>$25</p>
+                <button class="add-to-cart-btn">Add to cart</button>
+            </div> 
+            <div class="product" data-name="Satin Bonnet" data-price="30"> 
+                <img src="satin bonnet.jpg" alt="Satin Bonnet">
+                <h3>Satin Bonnet</h3> 
+                <p>$30</p> 
+                <button class="add-to-cart-btn">Add to cart</button>
+            </div>
+            <div class="product" data-name="Wooden Beads" data-price="10">
+                <img src="wooden beads.jpg" alt="Wooden Beads">
+                <h3>Wooden Beads</h3>
+                <p>$10</p> 
+                <button class="add-to-cart-btn">Add to cart</button>
+            </div>
+            <div class="product" data-name="Clear Beads" data-price="7"> 
+                <img src="clear beads.jpg" alt="Clear Beads">
+                <h3>Clear Beads</h3>
+                <p>$7</p> 
+                <button class="add-to-cart-btn">Add to cart</button>
+            </div>
+            <div class="product" data-name="Boutique Bow" data-price="20"> 
+                <img src="Boutique bows.jpg" alt="Boutique Bow">
+                <h3>Boutique Bow</h3>
+                <p>$20</p> 
+                <button class="add-to-cart-btn">Add to cart</button>
+            </div>
+        </div> 
+    </section> 
+
+<div id="success-message" style="display: none;">Successfully added to cart</div>
+<button id="checkout-btn" onclick="checkout()">Checkout</button>
+</main>
+
+<footer>  
+    <nav> 
+        <ul>
+            <li><a href="product.html">Home</a></li> 
+            <li><a href="about us.html">About Us</a></li> 
+        </ul> 
+    </nav> 
+    <p>&copy; DNG Hair Accessories</p> 
+</footer>  
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+    <title>Login Page</title>
+</head>
+
+<body>
+<div style="display: flex; justify-content: center;">
+    <img src="DNG HAIR ACCESSORIES.png" alt="hair ACCESSORIES" width="300" height="150">
+</div>
+<h1>DNG HAIR ACCESSORIES &trade;</h1>
+
+<div class="form-container">
+    <form id="Login">
+        <fieldset>
+            <h2><legend>Login</legend></h2>
+            <label for="loginEmail" class="required">Username or email address:</label> <br>
+            <input type="email" id="loginEmail" name="email" placeholder="Enter your email or username" required autocomplete="email"><br><br>
+
+            <label for="loginPassword" class="required">Password:</label> <br>
+            <input type="password" id="loginPassword" name="password" placeholder="Enter your password" required autocomplete="current-password" title="Password"><br><br>
+
+            <br>
+            <button class="login-button">Login</button>
+            <label><input type="checkbox" id="rememberMe" name="remember"> Remember me</label> <br>
+
+            <a href="#" class="forgot-password">Forget password?</a> <br>
+            <a href="javascript:void(0);" class="registration" onclick="openRegistration()">Register</a>
+        </fieldset>
+    </form>
+
+    <div id="registrationContainer" style="display: none;">
+        <form id="registration">
+            <fieldset>
+                <h2><legend>Register</legend></h2>
+                <label for="phone">Phone:</label> <br>
+                <input type="tel" id="phone" name="phone" placeholder="Please enter your phone number" autocomplete="tel"><br><br>
+
+                <div class="name-container">
+                    <div>
+                        <label for="registerFirstName" class="required">First Name</label> <br>
+                        <input type="text" id="registerFirstName" name="first-name" placeholder="Enter your first name" autocomplete="given-name" required>
+                    </div>
+
+                    <div>
+                        <label for="registerLastName" class="required">Last Name</label> <br>
+                        <input type="text" id="registerLastName" name="last-name" placeholder="Enter your last name" autocomplete="family-name" required><br><br>
+                    </div>
+                </div>
+
+                <label for="registerEmail" class="required">Email:</label> <br>
+                <input type="email" id="registerEmail" name="email" placeholder="Enter your email" autocomplete="email" required><br><br>
+
+                <label for="registerPassword" class="required">Password:</label> <br>
+                <input type="password" id="registerPassword" name="password" placeholder="Create a password" autocomplete="new-password" required> <br><br>
+
+                <button type="submit" class="submit" >REGISTER</button>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+<footer>
+    <h1>&copy; DNG HAIR ACCESSORIES</h1>
+    <p>Follow us on:</p>
+    <div class="social-links">
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="insta.jpg" alt="Instagram" />
+        </a>
+        <a href="https://www.tiktok.com" target="_blank">
+            <img src="tiktok.jpg" alt="TikTok" />
+        </a>
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="facebook.jpg" alt="Facebook" />
+        </a>
+    </div>
+</footer>
+</body>
+</html>

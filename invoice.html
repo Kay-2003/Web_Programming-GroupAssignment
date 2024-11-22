@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="invoice.css">
+</head>
+<body>
+    <header>
+        <h1>DNG Hair Accessories</h1>
+    </header>
+    <main>
+        <section class="invoice">
+            <h2>Invoice</h2>
+            <div class="invoice-header">
+                <img src="DNG HAIR ACCESORIES.png" alt="Logo" class="logo">
+                <div class="invoice-details">
+                    <p>Invoice #: <span id="invoice-number">001</span></p>
+                    <p>Invoice Date: <input type="date" id="invoice-date" /></p>
+                    <p>Shipping Method: <span id="shipping-method">Standard</span></p>
+                </div>
+            </div>
+            <div class="shipping-address">
+                <h3>Shipping Address</h3>
+                <p id="customer-name"></p>
+                <p id="address"></p>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="product-list"></tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Subtotal</td>
+                        <td id="subtotal">0.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Discount</td>
+                        <td id="discount">0.00</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Shipping Fee</td>
+                        <td id="shipping-fee">10.99</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"><strong>Total</strong></td>
+                        <td id="total-amount"><strong>0.00</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <button id="print-invoice" onclick="printInvoice()">Print Invoice</button>
+            <footer>
+                <p>&copy; DNG Hair Accessories</p>
+            </footer>
+        </section>
+    </main>
+    <script src="invoice.js"></script>
+</body>
+</html>
