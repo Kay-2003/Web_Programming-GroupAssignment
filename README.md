@@ -7,10 +7,8 @@ Karlicia Sutherland (ID: 2302691)
 Zachery Myrie (ID: 2210180)
 D-Andrea Graham (ID: 2304203)
 
-Login Credentials (for Testing)
-
-TRN: 230
-Password:Password876
+Login Credentials 
+You will ahve to register  first to be able to use the login.
 
 Project Overview
 1. Login Page
